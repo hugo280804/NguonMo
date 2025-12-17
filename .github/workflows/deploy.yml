@@ -21,6 +21,9 @@ jobs:
           password: ${{ secrets.FTP_PASS }}
           port: 21
           protocol: ftp
-          local-dir: ./Bai1/
+          local-dir: ./
           server-dir: /htdocs/
           dangerous-clean-slate: true
+          exclude: |
+            **/.git*
+            **/.github*
