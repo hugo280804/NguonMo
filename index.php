@@ -1,6 +1,6 @@
 <?php
 // Kết nối database
-$conn = new mysqli("if0_40672458_foodfast", "if0_40672458", "V9jSIdsq5mq4BqR", "ptoducts");
+$conn = new mysqli("sql202.infinityfree.com", "if0_40672458", "V9jSIdsq5mq4BqR", "if0_40672458_foodfast");
 $conn->set_charset("utf8mb4");
 
 if ($conn->connect_error) {
