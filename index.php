@@ -15,6 +15,7 @@ if ($conn->connect_error) {
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Thứ năm - Ca 4 - Võ Anh Tuấn</h1>
     <h1>🛒 Mini Shop</h1>
     <table>
         <tr>
